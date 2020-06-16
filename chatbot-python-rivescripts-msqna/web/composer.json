@@ -1,0 +1,5 @@
+{
+    "require": {
+        "there4/php-analytics-event": "^1.1"
+    }
+}

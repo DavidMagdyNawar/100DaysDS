@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+html, body{ padding: 0; margin: 0; height: 100%; font-family: Arial, Helvetica, "Microsoft JhengHei", sans-serif}
+.container{display: flex; height: 100%}
+.leftmenu{flex:1; background-image: url(../img/leftbar-bg-20190116.jpg); padding: 30px; background-repeat: no-repeat; background-size: cover; position: relative}
+.leftmenu img{ width: calc(100% - 60px); position: absolute; bottom: 25px}
+.leftmenu ul{ margin-top: 10vh; color: #fff; list-style-type: none; 
+-webkit-filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.5));
+  filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.5));}
+.leftmenu ul li{ position: relative; padding: 15px; cursor: pointer;}
+.leftmenu ul li:hover{opacity: 0.8;}
+.leftmenu ul li::before{ content: ""; position: absolute; left:-30px; width: 35px; height: 35px; background-size: 100%; top: 10px}
+.leftmenu ul .acc::before{ background-image: url(../img/icon-acc.png);}
+.leftmenu ul .er::before{ background-image: url(../img/icon-er.png);}
+.leftmenu ul .ee::before{ background-image: url(../img/icon-ee.png);}
+.leftmenu ul .appl::before{ background-image: url(../img/icon-onlineapp.png);}
+.leftmenu ul .contribution::before{ background-image: url(../img/icon-contribution.png);}
+.leftmenu ul .claim::before{ background-image: url(../img/icon-claim.png)}
+.leftmenu ul .layoff::before{ background-image: url(../img/icon-layoff.png)}
+.leftmenu ul .service::before{ background-image: url(../img/icon-service.png)}
+
+
+.dialogue{flex:3; position: relative}
+.dialogue .info{ display: flex; padding: 5px 15px; background-color: #eeeeee}
+.m-faq-btn a{ display: none}
+.profile-pic{ border-radius: 50%; flex: 1; max-width: 50px;}
+.profile-pic img{ width: 100%; vertical-align: middle}
+.name{ flex: 7; font-size: 20px; padding-left: 10px; padding-top: 5px}
+.name span{ display: block; font-size: 14px;}
+.lang{ flex:2;    text-align: right;}
+.lang select{    width: 80px;  border: 0;  height: 60%; margin-top: 10px; font-size: 16px; display: none}
+.textinput{border-top: 1px solid #eee;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+	}
+
+.textinput input{ padding: 10px 200px 10px 20px; border: 0;width: calc(100% - 220px); height: calc(100% - 20px); font-size: 18px;font-family: Arial, Helvetica, "Microsoft JhengHei", sans-serif}
+.textinput input::placeholder{ color:#ccc}
+.textinput a.btn{ position: absolute; bottom:5px; right: 5px;
+  background-image: -moz-linear-gradient( 90deg, rgb(243,152,0) 0%, rgb(238,123,0) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(243,152,0) 0%, rgb(238,123,0) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(243,152,0) 0%, rgb(238,123,0) 100%);
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #fff;
+    min-width: 50px;
+    text-align: center;
+    cursor: pointer;}
+.textinput a:hover{opacity: 0.8}
+.dialogue .content{    overflow: auto;  position: relative;  height: calc(100% - 112px); padding-bottom: 50px}
+
+.chatbot, .user{ position: relative; padding: 15px; display: block}
+.user{ text-align: right}
+.chatbot::before{ position: absolute;}
+.chatbot .msg{    
+    display: inline-block;
+    margin-left: 5px;
+    max-width: 70%;
+	min-width: 100px;
+    border-radius: 8px;
+	margin-top: -2px;
+	-webkit-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.2);
+	-moz-box-shadow:    2px 2px 6px 0px rgba(50, 50, 50, 0.2);
+	box-shadow:         2px 2px 6px 0px rgba(50, 50, 50, 0.2);
+	position: relative;
+	padding-bottom: 15px;}
+.chatbot .msg .db-reply{ text-align: justify;padding: 10px;}
+.chatbot .msg .time, .user .msg .time{     
+	position: absolute;
+    bottom: 8px;
+    right: 10px;
+    font-size: 14px;
+    color: #ccc;}
+
+.chatbot .profile-pic{max-width:35px; ; display:inline-block;    vertical-align: top;}
+.chatbot button{ color: #009B63;border: 0; border-top: 1px solid #eee; padding: 8px; text-align: justify; width: 100%; background-color: #fff; font-family: Arial, Helvetica, "Microsoft JhengHei", sans-serif; font-size: 16px}
+.chatbot button:nth-child(2){ margin-top: 10px}
+.chatbot button:hover{cursor: pointer; background-color: #eafff1;}
+
+.user .msg{ padding: 10px;display: inline-block;max-width: calc(70% - 20px);    color: white;
+    background-color: rgb(243, 152, 0); margin-left: 30%;border-radius: 8px; text-align: justify;
+-webkit-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.2);
+	-moz-box-shadow:    2px 2px 6px 0px rgba(50, 50, 50, 0.2);
+	box-shadow:         2px 2px 6px 0px rgba(50, 50, 50, 0.2);
+position: relative;
+	min-width: 100px;
+padding-bottom: 25px;}
+.user .msg .time{ color:#fff; opacity: 0.5}
+.chatbot + .chatbot, .user + .user{padding-top:0}
+.chatbot + .chatbot .profile-pic{opacity: 0; }
+
+@media (max-width: 767px) {
+.container{ display: block; position: relative}
+.leftmenu{display: none; position: absolute; bottom: 0; width: calc(100% - 60px); background-image: none; background-color: #999; z-index: 1}
+.leftmenu ul{ margin: 0	}
+.leftmenu img{ display: none}
+.dialogue{ position: absolute; width: 100%; height: 100%}
+.m-faq-btn a{
+	height: 20px;
+    display: block;
+    margin-top: 10px;
+    padding: 4px;
+    background-color: #fff;
+    margin-left: 10px;
+    cursor: pointer;}
+.leftmenu::before{ position: fixed;content: ""; width: 100%; height: 100%; opacity: 0.5; background-color: #000; left: 0; top:0}
+.leftmenu.m-show{display: block}
+}
+

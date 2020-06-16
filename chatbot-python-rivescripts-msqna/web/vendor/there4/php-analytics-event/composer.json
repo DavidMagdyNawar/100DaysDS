@@ -1,0 +1,27 @@
+{
+    "name": "there4/php-analytics-event",
+    "description": "Send Google Analytics events from PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Craig Davis",
+            "email": "craig@there4development.com"
+        }
+    ],
+    "keywords": ["analytics", "Google Analytics", "events"],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "There4\\Analytics\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5@dev"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
