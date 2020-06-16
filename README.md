@@ -9,3 +9,5 @@
 #5. iFLYTEK_TTS ~ How to generate a Chinese text-to-speech via iFLYTEK API?<br/>https://medium.com/analytics-vidhya/how-to-generate-a-chinese-text-to-speech-via-iflytek-api-db469b31f4a2
 
 #6. NewsWordCloud ~ How to scrape a news website using Python, BeautyfulSoup, and Selenium to build the Word Cloud<br/>https://medium.com/analytics-vidhya/how-to-scrape-a-news-website-using-python-beautyfulsoup-and-selenium-to-build-the-word-cloud-3355066b72dc
+
+#7. chatbot-python-rivescripts-msqna ~ How to create a rule-based chatbot by using RiveScript<br/>https://medium.com/analytics-vidhya/how-to-create-a-rule-based-chatbot-by-using-rivescript-b3ca326b264d
