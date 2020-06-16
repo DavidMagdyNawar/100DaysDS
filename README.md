@@ -7,3 +7,5 @@
 #4. Housing Prices - Linear Regression ~ Linear Regression in Python with Scikit-Learn<br/>https://medium.com/analytics-vidhya/linear-regression-in-python-with-scikit-learn-e1bb8a059cd2
 
 #5. iFLYTEK_TTS ~ How to generate a Chinese text-to-speech via iFLYTEK API?<br/>https://medium.com/analytics-vidhya/how-to-generate-a-chinese-text-to-speech-via-iflytek-api-db469b31f4a2
+
+#6. NewsWordCloud ~ How to scrape a news website using Python, BeautyfulSoup, and Selenium to build the Word Cloud<br/>https://medium.com/analytics-vidhya/how-to-scrape-a-news-website-using-python-beautyfulsoup-and-selenium-to-build-the-word-cloud-3355066b72dc
