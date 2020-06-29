@@ -11,3 +11,5 @@
 #6. NewsWordCloud ~ How to scrape a news website using Python, BeautyfulSoup, and Selenium to build the Word Cloud<br/>https://medium.com/analytics-vidhya/how-to-scrape-a-news-website-using-python-beautyfulsoup-and-selenium-to-build-the-word-cloud-3355066b72dc
 
 #7. chatbot-python-rivescripts-msqna ~ How to create a rule-based chatbot by using RiveScript<br/>https://medium.com/analytics-vidhya/how-to-create-a-rule-based-chatbot-by-using-rivescript-b3ca326b264d
+
+#8. Heart Disease Prediction using CatBoost
