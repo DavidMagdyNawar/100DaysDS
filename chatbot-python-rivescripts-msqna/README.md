@@ -34,8 +34,8 @@ CREATE TABLE `Chatbot` (
 1. Add thumb-up and thumb-down.
 
 # Screen
-<img src='https://github.com/kindersham/chatbot-python-rivescripts-msqna/blob/master/screen1.png' width='80%'>
-<img src='https://github.com/kindersham/chatbot-python-rivescripts-msqna/blob/master/screen2.png' width='80%'>
+<img src='https://github.com/kindersham/100DaysDS/blob/master/chatbot-python-rivescripts-msqna/screen1.png' width='80%'>
+<img src='https://github.com/kindersham/100DaysDS/blob/master/chatbot-python-rivescripts-msqna/screen2.png' width='80%'>
 
 # Live Demo
 <a href="http://chatbot.chinalifetrustees.com.hk">http://chatbot.chinalifetrustees.com.hk</a>
